@@ -1,0 +1,240 @@
+
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    font-style: italic;
+    color: #D6000D;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+header div ul {
+    list-style: none; 
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    margin: 5px;
+
+}
+header li {
+    margin: 5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+header a {
+background-color: #D6000D;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+padding: 5px 30px;
+font-family: 'Roboto', sans-serif;
+margin: 10px 5px;
+text-decoration: none;
+}
+main img {
+    width: 400px;
+    max-width: 85vw;
+    margin: 50px;
+}
+.orçamento {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.orçamento h2 {
+    color: #D6000D;
+}
+.orçamento a {
+    background-color: #D6000D;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+.solicitar-orcamento {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.caracteristicas {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#icon {
+    color: #D6000D;
+    }
+.ul-caracteristicas {
+    list-style: none;
+}
+form input {
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    padding: 10px;
+    border: none;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+form button {
+    background-color: #D6000D;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
+    width: auto;
+    margin: 0px 0 0 0.5em;
+    height: 100%;
+}
+.deixe-seu-numero {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.circle-icon {
+    float: left;
+    color: #D6000D;
+    font-size: xxx-large;
+    margin-right: 15px;
+    
+
+}
+.experiencias {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 70px;
+    
+
+
+}
+.experiencia {
+    padding: 10px;
+    background: #dcdcdc;
+    border-radius: 15px;
+
+}
+.elogio-content {
+    overflow: hidden;
+
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+    
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+   
+
+}
+.footer div a {
+  
+    color: inherit;
+}
+.footer h1 {
+    font-style: italic;
+}
+.footer p {
+    font-weight: 300;
+}
+.footer a {
+    font-weight: 300;
+}
+#icons {
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    header {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    header h1 {
+        text-align: center;
+    }
+    header div {
+        align-items: center;
+        justify-content: center;
+    }
+    .deixe-seu-numero {
+        margin-top: 30px;
+    }
+    form {
+        display: block;
+        text-align: center;  
+        margin: 5px; 
+    }
+    form button {
+        margin: 5px;
+    }
+    .experiencias {
+        justify-content: center;
+        align-items: center;
+    }
+    .experiencia {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .codar {
+        margin: 5px;
+    }
+    .sobre {
+        margin: 5px;
+    }
+    .contato {
+        margin: 5px;
+    }
+    .redes-sociais {
+        margin: 5px;
+    }
+}
